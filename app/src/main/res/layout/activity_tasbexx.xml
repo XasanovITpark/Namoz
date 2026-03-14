@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC565">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="top|center_horizontal">
+        <TextView
+            android:id="@+id/text_subhanallah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subhanallah"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/subhanallah_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="32sp"
+            android:layout_margin="8dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_add_subhanallah"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="+"/>
+
+            <Button
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_sub_subhanallah"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="-"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:id="@+id/btn_reset_subhanallah"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="#00B9FF"
+                android:text="⟳"/>
+        </LinearLayout>
+
+        <!-- ALHAMDULILLAH -->
+        <TextView
+            android:id="@+id/text_alhamdulillah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alhamdulillah"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/alhamdulillah_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="32sp"
+            android:layout_margin="8dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_add_alhamdulillah"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="+"/>
+
+            <Button
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_sub_alhamdulillah"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="-"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_reset_alhamdulillah"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="⟳"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <!-- ALLOHU AKBAR -->
+        <TextView
+            android:id="@+id/text_allohu_akbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allohu Akbar"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/allohuakbar_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="32sp"
+            android:layout_margin="8dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_add_allohuakbar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="+"/>
+
+            <Button
+                android:backgroundTint="#00B9FF"
+                android:textSize="30sp"
+                android:id="@+id/btn_sub_allohuakbar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="-"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:backgroundTint="#00B9FF"
+                android:id="@+id/btn_reset_allohuakbar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="⟳"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="by Xursandbek"
+            android:layout_marginTop="55dp"/>
+    </LinearLayout>
+</LinearLayout>
